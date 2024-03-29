@@ -200,7 +200,7 @@
 function updateCurrentTimeIST() {
 
   const now = new Date();
-  const ISTOffset = 330 * 60 * 1000; // 5 hours 30 minutes in milliseconds
+  const ISTOffset = 570 * 60 * 1000; // 5 hours 30 minutes in milliseconds
   const ISTTime = new Date(now.getTime() + ISTOffset);
 
   let hours = ISTTime.getHours();
